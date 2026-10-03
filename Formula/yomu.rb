@@ -1,10 +1,10 @@
 class Yomu < Formula
   desc "A lightweight terminal web browser made for reading"
   homepage "https://github.com/bobinosuke/yomu"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/bobinosuke/yomu/releases/download/v0.1.0/yomu-aarch64-apple-darwin.tar.xz"
-    sha256 "2b27fd297f1c07ce979084e093e14fcb75a4b20e0b18adb4816f67524dd06562"
+    url "https://github.com/bobinosuke/yomu/releases/download/v0.1.1/yomu-aarch64-apple-darwin.tar.xz"
+    sha256 "7d471f73b293002662e4d2990375e472b102038bffee6e74ee593ae47adb4e42"
   end
   license any_of: ["MIT", "Apache-2.0"]
 
